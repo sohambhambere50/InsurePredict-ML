@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Data files
+data/
+*.csv
+*.xlsx
+
+# Models
+models/*.pkl
+models/*.h5
+models/*.joblib
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+
+# MLflow
+mlruns/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
