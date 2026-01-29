@@ -36,7 +36,7 @@ python --version  # 3.8 or higher
 
 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/InsurePredict-ML.git
+git clone https://github.com/sohambhambere50/InsurePredict-ML.git
 cd InsurePredict-ML
 ```
 
@@ -65,8 +65,7 @@ InsurePredict-ML/
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your Profile](https://linkedin.com/in/your-profile)
+- GitHub: [@your-username](https://github.com/sohambhambere50)
 
 ## 📝 License
 
@@ -75,41 +74,4 @@ This project is open source and available under the MIT License.
 ## 🙏 Acknowledgments
 
 Built as part of MLOps learning journey.
-```
 
-**Note:** Replace "Your Name" and links with your actual details later!
-
----
-
-### File 3: `requirements.txt`
-
-**Purpose:** Lists all Python packages we'll use
-
-Type this:
-```
-# Core ML libraries
-numpy==1.24.3
-pandas==2.0.3
-scikit-learn==1.3.0
-matplotlib==3.7.2
-seaborn==0.12.2
-
-# MLOps tools
-mlflow==2.7.1
-dvc==3.20.0
-
-# API and deployment
-fastapi==0.103.1
-uvicorn==0.23.2
-pydantic==2.3.0
-
-# Utilities
-python-dotenv==1.0.0
-PyYAML==6.0.1
-joblib==1.3.2
-
-# Data validation
-evidently==0.4.5
-
-# Testing
-pytest==7.4.2
