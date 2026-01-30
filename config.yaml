@@ -1,0 +1,27 @@
+# Data paths
+train_data_path: "data/train.csv"
+test_data_path: "data/test.csv"
+
+# Target Column
+target_column: "Result"
+
+# Columns to drop
+drop_columns: ["id"]
+
+# Model paths
+model_path: "models/model.pkl"
+preprocessor_path: "models/preprocessor.pkl"
+
+# Training parameters
+test_size: 0.2
+random_state: 42
+
+# Model parameters
+model_parameters:
+  n_estimators: 100
+  max_depth: 10
+  min_samples_split: 2
+  min_samples_leaf: 1
+  class_weight: 'balanced'
+
+random_state: 42
