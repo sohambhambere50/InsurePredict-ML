@@ -9,8 +9,13 @@ venv/
 ENV/
 .venv
 
-# Data files
-data/
+# Ignore all data files
+data/**
+
+# But allow DVC metadata
+!data/**/*.dvc
+!data/.gitignore
+
 *.csv
 *.xlsx
 
@@ -35,3 +40,8 @@ Thumbs.db
 # Logs
 logs/
 *.log
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
