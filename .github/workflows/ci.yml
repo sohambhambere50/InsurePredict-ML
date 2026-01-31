@@ -23,7 +23,7 @@ jobs:
 
       - name: Run test
         run: |
-          python -m pytest tests/ -v
+          pytest tests/ -v
 
       - name: Check code quality
         run: |
