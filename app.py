@@ -1,5 +1,7 @@
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
+from fastapi.templating import Jinja2Templates
+from fastapi.staticfiles import StaticFiles
 import pandas as pd
 import os 
 import sys
@@ -11,9 +13,11 @@ from src.exception import CustomException
 
 app = FastAPI(title="InsurePredict-ML API", version="1.0")
 
+tempplates = Jinja2Templates(directory='templates')
+
 @app.get("/")
-def home():
-    return {"message" : "Insurance Cross-Sell Prediction API", "status" : "active"}
+def home(request: Request):
+    return tempplates.TemplateResponse("index.html", {"request": request})
 
 @app.post("/predict")
 async def predict(request: Request):
