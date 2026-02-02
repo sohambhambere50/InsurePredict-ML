@@ -23,7 +23,7 @@ jobs:
       
       - name: Download data files
         run: |
-          python download_data.py
+          python download_dataset.py
 
       - name: Run test
         run: |
