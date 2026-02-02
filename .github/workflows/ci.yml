@@ -37,7 +37,7 @@ jobs:
   build: 
     name: MLOp's CI Pipeline / build
     needs: test
-    runs-on: ununtu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
