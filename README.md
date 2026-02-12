@@ -58,7 +58,7 @@ git --version
 
 1. **Clone repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/InsurePredict-ML.git
+git clone https://github.com/sohambhambere50/InsurePredict-ML.git
 cd InsurePredict-ML
 ```
 
@@ -248,13 +248,10 @@ GitHub Actions workflow:
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [sohambhambere50](https://github.com/sohambhambere50/)
+- LinkedIn: [soham-bhambere](https://linkedin.com/in/soham-bhambere/)
+- Email: sohambhambere55@gmail.com
 
-## 📝 License
-
-This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgments
 
